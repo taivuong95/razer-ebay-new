@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  img , iframe{
+    width: 100%;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .product-image, .video {
+    margin: -6px auto;
+    max-width: 800px;
+    position: relative;
+  }
+
+  .hover-wrapper{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+  }
+
+  
+
+  .hover-wrapper-1{
+    top: calc(14.78% - -1px);
+    left: calc(31.76% - 46px);
+  }
+
+  .hover-wrapper-2{
+    top: calc(14.78% - -105px);
+    left: calc(31.76% - 15px);
+  }
+  .hover-wrapper-3{
+    top: calc(14.78% - -220px);
+    left: calc(31.76% - 71px);
+  }
+  .hover-wrapper-4{
+    top: calc(14.78% - -248px);
+    left: calc(31.76% - -36px);
+  }
+  .hover-wrapper-5{
+    top: calc(14.78% - -187px);
+    left: calc(31.76% - -225px);
+  }
+  .hover-wrapper-6{
+    top: calc(14.78% - -223px);
+    left: calc(31.76% - -299px);
+  }
+  .hover-point{
+    display: block;
+    border: 2px solid #fff;
+    background: rgba(145, 145, 145, .4);
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    outline-style: none;
+    cursor: pointer;
+  }
+  .hover-point:hover{
+    background: rgba(50, 150, 255, .8)
+   }
+
+  .hover-wrapper .hover-point .tooltiptext {
+    visibility: hidden;
+    width: 420px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    left: 125%;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .hover-wrapper-5 .hover-point .tooltiptext{
+    top: -45px;
+    right: 105%;
+    left: inherit;
+  }
+  .hover-wrapper-6 .hover-point .tooltiptext{
+    top: -45px;
+    right: 105%;
+    left: inherit;
+  }
+  .hover-wrapper .hover-point .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+  }
+  .hover-wrapper-5 .hover-point .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%; /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+  }
+  .hover-wrapper-6 .hover-point .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%; /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+  }
+  .hover-wrapper .hover-point:hover .tooltiptext {
+    visibility: visible;
+  }
+  @media (max-width: 768px) {
+    .video--iframe {
+      height: 50% !important;
+    }
+    .hover-wrapper-1{
+      top: calc(14.78%);
+      left: calc(31.76% - 45px);
+    }
+    .hover-wrapper-2{
+      top: calc(14.78% - -100px);
+      left: calc(31.76% - 15px);
+    }
+    .hover-wrapper-3{
+      top: calc(14.78% - -210px);
+      left: calc(31.76% - 69px);
+    }
+    .hover-wrapper-4{
+      top: calc(14.78% - -238px);
+      left: calc(31.76% - -34px);
+    }
+    .hover-wrapper-5 {
+      top: calc(14.78% - -180px);
+      left: calc(31.76% - -215px);
+    }
+  .hover-wrapper-6 {
+    top: calc(14.78% - -214px);
+    left: calc(31.76% - -286px);
+    } 
+  }
+  @media (max-width: 767px) {
+    .slider-wrapper .inner .slider-image-4{
+      background-position: inherit;
+    }
+  article{
+    /* margin-top: 80px; */
+  }
+  .hover-section {
+    display: none;
+  }
+  .info {
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    top: inherit !important;
+    right: inherit !important;
+    left: inherit !important;
+    bottom: inherit !important;
+    color: inherit;
+  }
+  .info.right-center {
+    top: 15px;
+    right: auto;
+  }
+  .info h5 {
+    /* color: #000000; */
+    color: inherit;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .slider-prev-next-control{
+    display: none;
+  }
+  .product-image{
+    background: #000;
+    color: #fff ;
+  }
+  .slider-wrapper{
+    /* margin-top: 150px; */
+    background: #fff;
+  }
+  .slider-dot-control{
+    position: relative;
+    bottom: 0 !important;
+    margin-bottom: 10px;
+  }
+ .slider-dot-control label{
+   width: 60%;
+   margin: 5px auto;
+   border: 1px solid #000;
+ }
+ .info.dual-lenses{
+   background: inherit;
+ }
+}
+
+  
