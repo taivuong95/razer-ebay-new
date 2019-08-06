@@ -98,20 +98,20 @@ article img {
   color: #07e107;
   margin: 0 0 5px;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
 }
 .info.top-left {
   top: 50px;
-  left: 30px;
+  left: 50px;
 }
 .info.top-right {
   top: 70px;
-  right: 20px;
+  right: 50px;
 }
 .info.bottom-left {
   bottom: 30px;
-  left: 30px;
+  left: 50px;
 }
 .info.bottom-right {
   bottom: 30px;
@@ -125,7 +125,7 @@ article img {
 
 .info.left-center{
   top: 100px;
-  left: 30px;
+  left: 50px;
 }
 
 /* Slider Styling */
