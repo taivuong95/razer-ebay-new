@@ -85,18 +85,18 @@
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    top: -40px;
+    top: -30px;
     left: 125%;
     text-align: left;
     padding: 10px;
   }
   .hover-wrapper-5 .hover-point .tooltiptext{
-    top: -45px;
+    top: -30px;
     right: 105%;
     left: inherit;
   }
   .hover-wrapper-6 .hover-point .tooltiptext{
-    top: -45px;
+    top: -30px;
     right: 105%;
     left: inherit;
   }
