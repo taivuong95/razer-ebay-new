@@ -77,7 +77,6 @@
     bottom: 0;
     border: 1px solid #ccc;
     line-height: 21px;
-    font-size: 10pt;
     /* font-family: verdana, geneva; */
     /* color: #5d5d5d; */
     padding: 35px 30px 35px 30px;
@@ -101,6 +100,7 @@
     opacity: 1;
   }
 
+ 
   @media only screen and (max-width: 1024px) {
     .tab {
         float: left;
@@ -116,5 +116,6 @@
         top: 375px;
         position: initial;
         min-height: 0px;
+        margin-bottom: 0;
       }
   }
