@@ -1,0 +1,119 @@
+.tabs {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .tabs:before {
+    display: inline-block;
+    content: "";
+    width: 100%;
+    height: 62px;
+    background: #e8e8e8;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .tab {
+    float: left;
+  }
+
+  .tab label {
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    /* font-family: 'Kanit', sans-serif; */
+    padding-bottom: 1px;
+    cursor: pointer;
+    position: relative;
+    margin: 0 0 0 0;
+    background: #e8e8e8;
+    border: 1px solid white;
+  }
+
+  .tab label span {
+    width: 100%;
+    display: inline-block;
+    padding: 0px 21.28px;
+    border-right: 1px solid #fff;
+    line-height: 61px;
+  }
+
+  .tab input:checked+label {
+    color: #000;
+    background: #fff;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+  }
+
+
+  .tab input:checked+label span:before {
+    display: inline-block;
+    content: "";
+    width: 100%;
+    height: 7px;
+    border-top: 7px solid #000000;
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+  }
+
+  .tab [type=radio] {
+    display: none;
+  }
+
+  .content {
+    position: absolute;
+    top: 62px;
+    left: 0;
+    background: white;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #ccc;
+    line-height: 21px;
+    font-size: 10pt;
+    font-family: verdana, geneva;
+    color: #5d5d5d;
+    padding: 35px 30px 35px 30px;
+    font-weight: 300;
+    opacity: 0;
+    display: none;
+    height: max-content;
+    min-height: 670px;
+    margin-bottom: 40px;
+  }
+
+  [type=radio]:checked~label {
+    background: white;
+    border-bottom: 1px solid white;
+    z-index: 2;
+  }
+
+  [type=radio]:checked~label~.content {
+    z-index: 1;
+    display: block;
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .tab {
+        float: left;
+        width: 100%;
+      }
+
+      .tab label {
+        width: 100%;
+        text-align: center;
+      }
+
+      .content {
+        top: 375px;
+        position: initial;
+        min-height: 0px;
+      }
+  }

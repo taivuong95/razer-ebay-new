@@ -1,6 +1,5 @@
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
 .wrapper {
-  max-width: 800px;
   margin: 0px auto;
   position: relative;
 }
@@ -51,7 +50,7 @@ article img {
   text-align: center;
 }
 .slider-dot-control p{
-  margin: 10px auto;
+  margin: 7px auto;
 }
 .slider-dot-control label {
   border: 1px solid #fff;
@@ -61,13 +60,12 @@ article img {
   cursor: pointer;
   margin: 0px 1.125%;
   width: 160px;
-  height: 40px;
+  height: 30px;
   background: #fff;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   color: #000;
-  font-size: 14px;
 }
 /* .slider-dot-control label:hover {
   background: #ccc;
@@ -78,7 +76,6 @@ article img {
 .info {
   position: absolute;
   width: 250px;
-  font-size: 14px;
   line-height: 20px;
   opacity: 1;
   color: #bdbdbd;
@@ -109,7 +106,7 @@ article img {
   left: 30px;
 }
 .info.top-right {
-  top: 50px;
+  top: 70px;
   right: 20px;
 }
 .info.bottom-left {
