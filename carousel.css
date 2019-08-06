@@ -75,7 +75,7 @@ article img {
 /* Info Box */
 .info {
   position: absolute;
-  width: 250px;
+  width: 215px;
   line-height: 20px;
   opacity: 1;
   color: #bdbdbd;
@@ -128,7 +128,7 @@ article img {
 
 .info.left-center{
   top: 100px;
-  left: 50px;
+  left: 60px;
 }
 
 /* Slider Styling */
